@@ -4,4 +4,8 @@ let count=0;
         if(num%i==0){
             count++;
         }
-    }
+    }if(count==2){
+console.log("it is a prime Number")
+}else{
+console.log("it is not a prime Number")
+}
